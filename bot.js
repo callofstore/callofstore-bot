@@ -10,7 +10,7 @@ const client = new Client({
 });
 
 // COLE SEU TOKEN AQUI!
-const TOKEN = 'MTQzNjQyMjQyMzQzNTI4NDYzMw.Gc92_8.wd_O981BxXG_CGdDgrbr3lEHKZeA4uPZKnZUQI';
+const TOKEN = 'MTQzNjQyMjQyMzQzNTI4NDYzMw.GzM3v2.JyxIfbneKoLn8Z54V8bOq30gJAcfsWbt3wpER4';
 
 // CONFIGURAÇÕES DA LOJA
 const CONFIG = {
@@ -795,4 +795,5 @@ async function enviarNotificacaoVendedorDM(interaction, pedidoId, jogo, jogoInfo
 }
 
 // CONECTA O BOT
+
 client.login(TOKEN).catch(console.error);
